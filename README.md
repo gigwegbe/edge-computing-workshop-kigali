@@ -18,7 +18,6 @@ Slide - [Link](https://docs.google.com/presentation/d/1E56lccdfK-RObEJX98kK9nOLP
 
 
 #### Building Model for Image Classification: 23 - 30
-<!-- ![Welcome Image](./asset/welcome.png) -->
 
 #### Deployment of Image Classification Models Edge Devices and Laptop 
 ![Welcome Image](./asset/image-classification-video.jpg)
@@ -106,13 +105,14 @@ python3 real-time-inference-tflite.py
 ```
 
 ## Reference 
-- [Edge Impulse]()
+- [Edge Impulse](https://edgeimpulse.com/)
 - [Edge Impulse with Tensorrt Jetson](https://docs.edgeimpulse.com/tools/libraries/sdks/inference/linux/cpp#tensorrt)
-- [Image Classification]()
+- [Image Classification](https://blog.demir.io/understanding-image-classification-cnn-a3c0606445b6)
+- [Object Detection](https://medium.com/@kattarajesh2001/object-detection-part-1-introduction-to-object-detection-321f1fd56295)
 - [Edge Impulse Linux CLI](https://docs.edgeimpulse.com/tools/clis/edge-impulse-linux-cli#edge-impulse-linux-runner)
 - [Edge Impulse Linux SDKs](https://docs.edgeimpulse.com/tools/libraries/sdks/inference/linux)
 - [Edge Impulse NVIDIA Jetson](https://docs.edgeimpulse.com/hardware/boards/nvidia-jetson)
 - [venv — Creation of virtual environments](https://docs.python.org/3/library/venv.html)
-- [Object Detection]()
+
 - [Visual Language Model - VLM]()
 - [Inference with Qualcomm AI Accelerator on Particle Tachyon](https://www.hackster.io/naveenbskumar/inference-with-qualcomm-ai-accelerator-on-particle-tachyon-1c8888?f=1)
