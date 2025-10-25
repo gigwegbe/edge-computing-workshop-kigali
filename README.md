@@ -21,7 +21,7 @@ Slide - [Link](https://docs.google.com/presentation/d/1E56lccdfK-RObEJX98kK9nOLP
 <!-- ![Welcome Image](./asset/welcome.png) -->
 
 #### Deployment of Image Classification Models Edge Devices and Laptop 
-![Welcome Image](./asset/image-classification-feed.jpg)
+![Welcome Image](./asset/image-classification-video.jpg)
 
 - Create a python virtual environment 
 ```
@@ -45,7 +45,7 @@ cd image-classification
 ```
 - Inference on live video stream from camera (Unoptimized Model - float 32): 
 ```
-(edge-env)python3 camera_infer_h5.py -m models/model.h5 -l label.txt --width 320 --height 320 
+(edge-env)python3 camera_infer_h5.py -m models/model.h5 -l labels.txt --width 320 --height 320 
 ```
 - Inference on live video stream from camera (Optimized Model - int-8): 
 ```
