@@ -41,9 +41,9 @@ pip install -r requirements.txt
 ```
 
 - Change the directory to `image-classification`
-  ```
-  cd image-classification
-  ```
+```
+cd image-classification
+```
 - Inference on live video stream from camera (Unoptimized Model - float 32): 
 ```
 (edge-env)python3 camera_infer_h5.py -m models/model.h5 -l label.txt --width 320 --height 3
