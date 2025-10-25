@@ -2,7 +2,8 @@
 
 ![Cover Image](./asset/header-image.jpg)
 
-Slide - [Link](https://docs.google.com/presentation/d/1E56lccdfK-RObEJX98kK9nOLPP6bARF_jRshlebHVts/edit?usp=sharing) 
+Edge Computing Slide - [Link](https://docs.google.com/presentation/d/1E56lccdfK-RObEJX98kK9nOLPP6bARF_jRshlebHVts/edit?usp=sharing) 
+Efficient AI Slide - [Link](https://docs.google.com/presentation/d/1D11F20rjFeZ1DXRGaUwTBM37w-PdmFebm71B968ncMs/edit?usp=sharing)
 
 
 ### Introduction to Edge Impulse: 8 - 11
