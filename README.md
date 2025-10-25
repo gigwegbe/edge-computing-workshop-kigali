@@ -52,6 +52,18 @@ cd image-classification
 python camera_infer_tflite.py --model models/ei-edge-computing-workshop-2025-image-classification-classifier-tensorflow-lite-int8-quantized-model.3.lite --labels labels.txt --camera 0 --top_k 3
 ```
 
+Quit the live stream by pressing `q` or `ctrl + c`: 
+```
+^CTraceback (most recent call last):
+  File "/Users/george/Documents/github/edge-computing-workshop-kigali/image-classification/camera_infer_tflite.py", line 162, in <module>
+    main()
+  File "/Users/george/Documents/github/edge-computing-workshop-kigali/image-classification/camera_infer_tflite.py", line 154, in main
+    key = cv2.waitKey(1) & 0xFF
+          ^^^^^^^^^^^^^^
+KeyboardInterrupt
+^C
+```
+
 - Inference on images saved on disk: 
 ```
 python batch_infer_images.py --model models/ei-edge-computing-workshop-2025-image-classification-classifier-tensorflow-lite-int8-quantized-model.3.lite --labels labels.txt --images_dir ./sample-directory
@@ -68,17 +80,7 @@ python batch_infer_images.py --model models/ei-edge-computing-workshop-2025-imag
 python camera_infer_tflite.py --model models/ei-edge-computing-workshop-2025-image-classification-classifier-tensorflow-lite-int8-quantized-model.3.lite --labels labels.txt --camera 0 --top_k 3
 ```
 
-Quit the live stream by pressing `q` or `ctrl + c`: 
-```
-^CTraceback (most recent call last):
-  File "/Users/george/Documents/github/edge-computing-workshop-kigali/image-classification/camera_infer_tflite.py", line 162, in <module>
-    main()
-  File "/Users/george/Documents/github/edge-computing-workshop-kigali/image-classification/camera_infer_tflite.py", line 154, in main
-    key = cv2.waitKey(1) & 0xFF
-          ^^^^^^^^^^^^^^
-KeyboardInterrupt
-^C
-```
+
 
 
 ### Working with Visual Language Models(Liquid AI - VLM) 
