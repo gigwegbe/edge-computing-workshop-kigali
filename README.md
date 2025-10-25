@@ -75,11 +75,18 @@ python batch_infer_images.py --model models/ei-edge-computing-workshop-2025-imag
 ### Building Model for Object Detection: 23 - 30
 <!-- ![Welcome Image](./asset/welcome.png) -->
 
+#### Deployment of Object Detection Models Edge Devices and Laptop 
 
+- Inference on live video stream from camera (Unoptimized Model - float 32): 
+
+```
+
+```
+
+- Inference on live video stream from camera (Optimized Model - int-8): 
 ```
 python camera_infer_tflite.py --model models/ei-edge-computing-workshop-2025-image-classification-classifier-tensorflow-lite-int8-quantized-model.3.lite --labels labels.txt --camera 0 --top_k 3
 ```
-
 
 
 
