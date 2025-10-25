@@ -88,6 +88,12 @@ Prompting Visual Language Model (VLM) Colab - [VLM Prompt Engineering](https://c
 ### Deploying VLM on Edge Device 
 ![Welcome Image](./asset/jetson-orin.jpg)
 
+- Change directory into `visual-language-model`
+  ```
+  python3 deployment-script.py
+  ```
+- 
+
 ## Reference 
 - [Edge Impulse]()
 - [Edge Impulse with Tensorrt Jetson](https://docs.edgeimpulse.com/tools/libraries/sdks/inference/linux/cpp#tensorrt)
