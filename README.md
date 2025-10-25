@@ -46,27 +46,23 @@ cd image-classification
 ```
 - Inference on live video stream from camera (Unoptimized Model - float 32): 
 ```
-(edge-env)python3 camera_infer_h5.py -m models/model.h5 -l label.txt --width 320 --height 3
-20 
+(edge-env)python3 camera_infer_h5.py -m models/model.h5 -l label.txt --width 320 --height 320 
 ```
 - Inference on live video stream from camera (Optimized Model - int-8): 
 ```
-python3 camera_infer_h5.py -m models/model.h5 -l label.txt --width 320 --height 320
+python camera_infer_tflite.py --model models/ei-edge-computing-workshop-2025-image-classification-classifier-tensorflow-lite-int8-quantized-model.3.lite --labels labels.txt --camera 0 --top_k 3
 ```
 
-
 - Inference on images saved on disk: 
+```
+python batch_infer_images.py --model models/ei-edge-computing-workshop-2025-image-classification-classifier-tensorflow-lite-int8-quantized-model.3.lite --labels labels.txt --images_dir ./sample-directory
+```
 
 ### Working with Visual Language Models(Liquid AI - VLM) 
 <!-- ![Welcome Image](./asset/welcome.png) -->
 
 ### Deploying VLM on Edge Device 
 <!-- ![Welcome Image](./asset/welcome.png) -->
-
-
-```
-python camera_infer_tflite.py --model models/ei-edge-computing-workshop-2025-image-classification-classifier-tensorflow-lite-float32-model.3.lite --labels labels.txt --camera 0 --top_k 2
-```
 
 ```
 python camera_infer_tflite.py --model models/ei-edge-computing-workshop-2025-image-classification-classifier-tensorflow-lite-int8-quantized-model.3.lite --labels labels.txt --camera 0 --top_k 3
@@ -85,7 +81,6 @@ KeyboardInterrupt
 ```
 
 ```
-python batch_infer_images.py --model models/ei-edge-computing-workshop-2025-image-classification-classifier-tensorflow-lite-int8-quantized-model.3.lite --labels labels.txt --images_dir ./sample-directory
 ```
 
 
