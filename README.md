@@ -81,12 +81,12 @@ python batch_infer_images.py --model models/ei-edge-computing-workshop-2025-imag
 - Inference on live video stream from camera (Unoptimized Model - float 32): 
 
 ```
-
+python3 real-time-inference.py 
 ```
 
 - Inference on live video stream from camera (Optimized Model - int-8): 
 ```
-python camera_infer_tflite.py --model models/ei-edge-computing-workshop-2025-image-classification-classifier-tensorflow-lite-int8-quantized-model.3.lite --labels labels.txt --camera 0 --top_k 3
+python3 real-time-inference-tflite.py
 ```
 
 
