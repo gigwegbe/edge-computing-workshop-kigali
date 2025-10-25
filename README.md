@@ -79,10 +79,10 @@ KeyboardInterrupt
 
 
 ### Working with Visual Language Models(Liquid AI - VLM) 
-<!-- ![Welcome Image](./asset/welcome.png) -->
-#### Prompt Engineering on Visual Language Model (VLM) 
 ![Welcome Image](./asset/vlm-prompting.png)
-Prompting Visual Language Model (VLM) Colab - [VLM Prompt Engineering](https://colab.research.google.com/drive/1uMbCadRY-ILQtsJ5DS2l1qAYWNMg_Kv9?usp=sharing)
+#### Prompt Engineering on Visual Language Model (VLM) 
+- Prompting Visual Language Model (VLM) Colab - [VLM Prompt Engineering](https://colab.research.google.com/drive/1uMbCadRY-ILQtsJ5DS2l1qAYWNMg_Kv9?usp=sharing)
+- Running it locally on your laptop - [Link]()
 
 #### Deploying VLM on Edge Device 
 ![Welcome Image](./asset/jetson-orin.jpg)
