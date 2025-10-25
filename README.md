@@ -18,19 +18,20 @@ Slide - [Link](https://docs.google.com/presentation/d/1E56lccdfK-RObEJX98kK9nOLP
 - Image Classification 
 - Object Detection 
 
-### Building Model 
+### Building Model for Image Classification: 23 - 30
 <!-- ![Welcome Image](./asset/welcome.png) -->
 
-### Deploying on Edge Devices and Laptop 
+### Deployment of Image Classification Models Edge Devices and Laptop 
 <!-- ![Welcome Image](./asset/welcome.png) -->
 
 - Create a python virtual environment 
 ```
 python -m venv edge-env
 ```
+
 - Activate the environment
 ```
-george@Georges-MacBook-Pro edge-computing-workshop-kigali % source edge-env/bin/activate
+source edge-env/bin/activate
 (edge-env) george@Georges-MacBook-Pro edge-computing-workshop-kigali % 
 ```
 
@@ -39,10 +40,22 @@ george@Georges-MacBook-Pro edge-computing-workshop-kigali % source edge-env/bin/
 pip install -r requirements.txt
 ```
 
+- Change the directory to `image-classification`
+  ```
+  cd image-classification
+  ```
+- Inference on live video stream from camera (Unoptimized Model - float 32): 
 ```
-(edge-env) george@Georges-MacBook-Pro image-classification % python3 camera_infer_h5.py -m models/model.h5 -l label.txt --width 320 --height 3
+(edge-env)python3 camera_infer_h5.py -m models/model.h5 -l label.txt --width 320 --height 3
 20 
 ```
+- Inference on live video stream from camera (Optimized Model - int-8): 
+```
+python3 camera_infer_h5.py -m models/model.h5 -l label.txt --width 320 --height 320
+```
+
+
+- Inference on images saved on disk: 
 
 ### Working with Visual Language Models(Liquid AI - VLM) 
 <!-- ![Welcome Image](./asset/welcome.png) -->
@@ -50,9 +63,6 @@ pip install -r requirements.txt
 ### Deploying VLM on Edge Device 
 <!-- ![Welcome Image](./asset/welcome.png) -->
 
-```
-python3 camera_infer_h5.py -m models/model.h5 -l label.txt --width 320 --height 320
-```
 
 ```
 python camera_infer_tflite.py --model models/ei-edge-computing-workshop-2025-image-classification-classifier-tensorflow-lite-float32-model.3.lite --labels labels.txt --camera 0 --top_k 2
