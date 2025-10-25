@@ -65,7 +65,7 @@ python batch_infer_images.py --model models/ei-edge-computing-workshop-2025-imag
 python camera_infer_tflite.py --model models/ei-edge-computing-workshop-2025-image-classification-classifier-tensorflow-lite-int8-quantized-model.3.lite --labels labels.txt --camera 0 --top_k 3
 ```
 
-Quit
+Quit the live stream by pressing `q` or `ctrl + c`: 
 ```
 ^CTraceback (most recent call last):
   File "/Users/george/Documents/github/edge-computing-workshop-kigali/image-classification/camera_infer_tflite.py", line 162, in <module>
@@ -77,8 +77,6 @@ KeyboardInterrupt
 ^C
 ```
 
-```
-```
 
 
 ### Prompt Engineering on Visual Language Model (VLM) 
