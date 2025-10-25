@@ -89,10 +89,9 @@ Prompting Visual Language Model (VLM) Colab - [VLM Prompt Engineering](https://c
 ![Welcome Image](./asset/jetson-orin.jpg)
 
 - Change directory into `visual-language-model`
-  ```
+```
   python3 deployment-script.py
-  ```
-- 
+```
 
 ## Reference 
 - [Edge Impulse]()
