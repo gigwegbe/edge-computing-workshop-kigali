@@ -86,6 +86,7 @@ KeyboardInterrupt
 Prompting Visual Language Model (VLM) Colab - [VLM Prompt Engineering](https://colab.research.google.com/drive/1uMbCadRY-ILQtsJ5DS2l1qAYWNMg_Kv9?usp=sharing)
 
 ### Deploying VLM on Edge Device 
+![Welcome Image](./asset/jetson-orin.jpg)
 
 ## Reference 
 - [Edge Impulse]()
