@@ -50,35 +50,6 @@ pip install -r requirements.txt
 ### Deploying VLM on Edge Device 
 <!-- ![Welcome Image](./asset/welcome.png) -->
 
-
-```
-(base) george@Georges-MacBook-Pro models % edge-impulse-linux-runner
-
-```
-
-```
-(base) george@Georges-MacBook-Pro models % edge-impulse-linux-runner --model-file edge-computing-workshop-2025-image-classification-mac-arm64-v4.eim 
-[RUN] Starting the image classifier for Edge Impulse Experts / edge-computing-workshop-2025-image-classification (v4)
-[RUN] Parameters image size 320x320 px (3 channels) classes [ 'Esp32', 'Jetson', 'Stm32' ]
-[RUN] Thresholds: 42.min_score=0.001 (override via --thresholds <value>)
-[RUN] Connected to camera MacBook Pro Camera
-
-Want to see a feed of the camera and live classification in your browser? Go to http://192.168.1.106:4912
-
-Want to use predictions in your application? Open a websocket to ws://192.168.1.106:4912
-
-classifyRes 5ms. { Esp32: 0.2861, Jetson: 0.4963, Stm32: 0.2176 }
-classifyRes 4ms. { Esp32: 0.3131, Jetson: 0.4614, Stm32: 0.2256 }
-classifyRes 4ms. { Esp32: 0.3156, Jetson: 0.455, Stm32: 0.2294 }
-classifyRes 3ms. { Esp32: 0.3205, Jetson: 0.4442, Stm32: 0.2353 }
-classifyRes 3ms. { Esp32: 0.3231, Jetson: 0.4399, Stm32: 0.237 }
-classifyRes 3ms. { Esp32: 0.326, Jetson: 0.4358, Stm32: 0.2382 }
-classifyRes 3ms. { Esp32: 0.3256, Jetson: 0.4337, Stm32: 0.2407 }
-classifyRes 3ms. { Esp32: 0.324, Jetson: 0.4297, Stm32: 0.2463 }
-classifyRes 3ms. { Esp32: 0.3227, Jetson: 0.4289, Stm32: 0.2483 }
-classifyRes 3ms. { Esp32: 0.3203, Jetson: 0.4291, Stm32: 0.2505 }
-```
-
 ```
 python3 camera_infer_h5.py -m models/model.h5 -l label.txt --width 320 --height 320
 ```
