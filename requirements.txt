@@ -1,0 +1,11 @@
+numpy 
+tensorflow
+Pillow 
+opencv-python
+notebook
+jupyter 
+accelerate
+torch
+transformers
+huggingface_hub
+
