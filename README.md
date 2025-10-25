@@ -21,7 +21,7 @@ Slide - [Link](https://docs.google.com/presentation/d/1E56lccdfK-RObEJX98kK9nOLP
 <!-- ![Welcome Image](./asset/welcome.png) -->
 
 #### Deployment of Image Classification Models Edge Devices and Laptop 
-<!-- ![Welcome Image](./asset/welcome.png) -->
+![Welcome Image](./asset/image-classification-feed.jpg)
 
 - Create a python virtual environment 
 ```
@@ -76,7 +76,6 @@ python batch_infer_images.py --model models/ei-edge-computing-workshop-2025-imag
 <!-- ![Welcome Image](./asset/welcome.png) -->
 
 #### Deployment of Object Detection Models Edge Devices and Laptop 
-![Welcome Image](./asset/image-classification-feed.jpg)
 
 - Inference on live video stream from camera (Unoptimized Model - float 32): 
 
