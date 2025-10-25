@@ -76,6 +76,7 @@ python batch_infer_images.py --model models/ei-edge-computing-workshop-2025-imag
 <!-- ![Welcome Image](./asset/welcome.png) -->
 
 #### Deployment of Object Detection Models Edge Devices and Laptop 
+![Welcome Image](./asset/object-detection-feed.jpg)
 
 - Inference on live video stream from camera (Unoptimized Model - float 32): 
 
