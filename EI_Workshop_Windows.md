@@ -41,10 +41,6 @@ NB: Using a downloader like Free Downloader Manager is advisable if download spe
 
 ## 5. Install the needed packages in the virtual environment created:  
   ```bash
-  pip install -r requirements-vlm.txt
-  ```
-  OR
-  ```bash
   pip install numpy tensorflow Pillow opencv-python
   ```
   THEN
