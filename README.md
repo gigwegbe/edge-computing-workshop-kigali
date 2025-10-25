@@ -13,14 +13,14 @@ Slide - [Link](https://docs.google.com/presentation/d/1E56lccdfK-RObEJX98kK9nOLP
 
 ![Welcome Image](./asset/welcome.png)
 
-### Collecting Data for Image Classification
+#### Collecting Data for Image Classification
 ![Welcome Image](./asset/data-collection-image-classification.png)
 
 
-### Building Model for Image Classification: 23 - 30
+#### Building Model for Image Classification: 23 - 30
 <!-- ![Welcome Image](./asset/welcome.png) -->
 
-### Deployment of Image Classification Models Edge Devices and Laptop 
+#### Deployment of Image Classification Models Edge Devices and Laptop 
 <!-- ![Welcome Image](./asset/welcome.png) -->
 
 - Create a python virtual environment 
