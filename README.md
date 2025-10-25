@@ -13,8 +13,8 @@ Slide - [Link](https://docs.google.com/presentation/d/1E56lccdfK-RObEJX98kK9nOLP
 
 ![Welcome Image](./asset/welcome.png)
 
-### Collecting Data 
-<!-- ![Welcome Image](./asset/welcome.png) -->
+### Collecting Data for Image Classification
+![Welcome Image](./asset/data-collection-image-classification.png)
 - Image Classification 
 - Object Detection 
 
@@ -57,6 +57,13 @@ python camera_infer_tflite.py --model models/ei-edge-computing-workshop-2025-ima
 ```
 python batch_infer_images.py --model models/ei-edge-computing-workshop-2025-image-classification-classifier-tensorflow-lite-int8-quantized-model.3.lite --labels labels.txt --images_dir ./sample-directory
 ```
+
+### Collecting Data for Image Classification
+
+
+### Building Model for Object Detection: 23 - 30
+<!-- ![Welcome Image](./asset/welcome.png) -->
+
 
 ### Working with Visual Language Models(Liquid AI - VLM) 
 <!-- ![Welcome Image](./asset/welcome.png) -->
