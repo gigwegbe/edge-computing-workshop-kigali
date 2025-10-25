@@ -78,6 +78,9 @@ KeyboardInterrupt
 python batch_infer_images.py --model models/ei-edge-computing-workshop-2025-image-classification-classifier-tensorflow-lite-int8-quantized-model.3.lite --labels labels.txt --images_dir ./sample-directory
 ```
 
+
+
+Prompting Visual Language Model (VLM) Colab - [VLM Prompt Engineering](https://colab.research.google.com/drive/1uMbCadRY-ILQtsJ5DS2l1qAYWNMg_Kv9?usp=sharing)
 ## Reference 
 - [Edge Impulse]()
 - [Edge Impulse with Tensorrt Jetson](https://docs.edgeimpulse.com/tools/libraries/sdks/inference/linux/cpp#tensorrt)
