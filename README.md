@@ -64,9 +64,6 @@ python batch_infer_images.py --model models/ei-edge-computing-workshop-2025-imag
 <!-- ![Welcome Image](./asset/welcome.png) -->
 
 
-### Working with Visual Language Models(Liquid AI - VLM) 
-<!-- ![Welcome Image](./asset/welcome.png) -->
-
 ```
 python camera_infer_tflite.py --model models/ei-edge-computing-workshop-2025-image-classification-classifier-tensorflow-lite-int8-quantized-model.3.lite --labels labels.txt --camera 0 --top_k 3
 ```
