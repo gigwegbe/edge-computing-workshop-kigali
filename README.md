@@ -95,7 +95,7 @@ python3 real-time-inference-tflite.py
 ![Welcome Image](./asset/vlm-prompting.png)
 #### Prompt Engineering on Visual Language Model (VLM) 
 - Prompting Visual Language Model (VLM) Colab - [VLM Prompt Engineering](https://colab.research.google.com/drive/1uMbCadRY-ILQtsJ5DS2l1qAYWNMg_Kv9?usp=sharing)
-- Running it locally on your laptop - [Link]()
+- Running it locally on your laptop - [Link](https://github.com/gigwegbe/edge-computing-workshop-kigali/blob/main/visual-language-model/deployment-script.py)
 
 #### Deploying VLM on Edge Device 
 ![Welcome Image](./asset/jetson-orin.jpg)
