@@ -33,7 +33,7 @@ conversation = [
                 "text": """You are an expert electronics board inspector. Examine the image and verify whether the detected object(s) and their reported confidence scores align with what you observe in the board.
 Return the result strictly as JSON in the format below (no extra text, only JSON):
 {
-  "short description of damages": "<>",
+  "short_description": "<>",
   "confidence_level": "<>",
   "colors": "<Give one color>",
   "size": "<Give one size e.g small, medium, large>"
